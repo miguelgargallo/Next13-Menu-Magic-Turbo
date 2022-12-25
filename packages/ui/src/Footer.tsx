@@ -48,7 +48,7 @@ export const Footer = () => {
               />
             </picture>
           </a>
-          <Versions />
+          <Version />
           <div
             className="hidden py-2 px-4 font-bold text-white md:block"
             style={{

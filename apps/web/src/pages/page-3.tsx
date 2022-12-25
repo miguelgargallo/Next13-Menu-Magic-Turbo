@@ -8,6 +8,7 @@ import { Menu4 } from "ui";
 import { Menu5 } from "ui";
 import { Menu6 } from "ui";
 import { Menu7 } from "ui";
+import { Footer } from "ui";
 
 export default function Home() {
   console.log("✅ Index page by Pylar AI, a Miguel Gargallo Startup");
@@ -27,6 +28,7 @@ export default function Home() {
       <Menu6 />
       <Menu7 />
       </div>
+      </Footer />
     </div>
   );
 }

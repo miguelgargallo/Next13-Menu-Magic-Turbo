@@ -55,18 +55,32 @@ var Button = () => {
   });
 };
 
-// src/Footer.tsx
+// src/Version.tsx
 var import_jsx_runtime2 = require("react/jsx-runtime");
+var Version = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+    className: "hidden bg-yellow-200 py-2 px-4 text-xs font-bold text-black md:block",
+    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+      href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      children: "v2.0.0"
+    })
+  });
+};
+
+// src/Footer.tsx
+var import_jsx_runtime3 = require("react/jsx-runtime");
 var Footer = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("footer", {
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("footer", {
     className: "bg-black py-8 text-center text-white",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
-        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("a", {
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("a", {
           children: [
             "Made with \u2764\uFE0F by",
             " ",
-            /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
               href: "https://twitter.com/miguelgargallo",
               target: "_blank",
               rel: "noopener noreferrer",
@@ -77,12 +91,12 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
-        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("a", {
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("a", {
           children: [
             "2022 \xA9",
             " ",
-            /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
               href: "https://huggingface.co/spaces/superdatas/LICENSE",
               target: "_blank",
               rel: "noopener noreferrer",
@@ -93,19 +107,19 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
         className: "hidden sm:block",
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
             className: "flex w-full items-center justify-center",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
                 href: "https://huggingface.co/spaces/superdatas/LICENSE",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className: "hidden p-2 md:block",
-                children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("picture", {
-                  children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("img", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("picture", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("img", {
                     src: "https://huggingface.co/front/assets/huggingface_logo.svg",
                     alt: "Landscape picture",
                     width: 40,
@@ -113,8 +127,8 @@ var Footer = () => {
                   })
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Versions, {}),
-              /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Version, {}),
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
                 className: "hidden py-2 px-4 font-bold text-white md:block",
                 style: {
                   display: "flex",
@@ -123,9 +137,9 @@ var Footer = () => {
                 },
                 children: [
                   " ",
-                  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+                  /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
                     className: "hidden py-2 px-4 font-bold text-white md:block",
-                    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+                    children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
                       href: "http://twitter.com/miguelgargallo",
                       target: "_blank",
                       rel: "noopener noreferrer",
@@ -136,27 +150,13 @@ var Footer = () => {
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", {
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", {
             className: "text-white",
             children: "The Art of Prompting, tomorrow, today."
           })
         ]
       })
     ]
-  });
-};
-
-// src/Version.tsx
-var import_jsx_runtime3 = require("react/jsx-runtime");
-var Version = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
-    className: "hidden bg-yellow-200 py-2 px-4 text-xs font-bold text-black md:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-      href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
-      target: "_blank",
-      rel: "noopener noreferrer",
-      children: "v2.0.0"
-    })
   });
 };
 

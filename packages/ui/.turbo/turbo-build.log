@@ -6,17 +6,25 @@ $ tsup src/index.tsx --format esm,cjs --dts --external react && tailwindcss -i .
 [34mCLI[39m Target: es6
 [34mESM[39m Build start
 [34mCJS[39m Build start
-[32mESM[39m [1mdist\index.css [22m[32m2.06 KB[39m
-[32mESM[39m [1mdist\index.mjs [22m[32m313.58 KB[39m
-[32mESM[39m ⚡️ Build success in 299ms
-[32mCJS[39m [1mdist\index.css [22m[32m2.06 KB[39m
-[32mCJS[39m [1mdist\index.js  [22m[32m320.27 KB[39m
-[32mCJS[39m ⚡️ Build success in 300ms
+[32mESM[39m [1mdist\index.mjs [22m[32m16.64 KB[39m
+[32mESM[39m ⚡️ Build success in 65ms
+[32mCJS[39m [1mdist\index.js [22m[32m20.27 KB[39m
+[32mCJS[39m ⚡️ Build success in 64ms
 [34mDTS[39m Build start
-[32mDTS[39m ⚡️ Build success in 3155ms
-[32mDTS[39m [1mdist\index.d.ts [22m[32m1.13 KB[39m
+src/Footer.tsx(51,12): error TS2552: Cannot find name 'Versions'. Did you mean 'Version'?
 
-Rebuilding...
-
-Done in 356ms.
-Done in 5.40s.
+[31mError: error occured in dts build
+    at Worker.<anonymous> (D:\Twitch\Next13-Menu-Magic-Turbo\node_modules\tsup\dist\index.js:2226:26)
+    at Worker.emit (node:events:513:28)
+    at MessagePort.<anonymous> (node:internal/worker:233:53)
+    at MessagePort.[nodejs.internal.kHybridDispatch] (node:internal/event_target:694:20)
+    at MessagePort.exports.emitMessage (node:internal/per_context/messageport:23:28)[39m
+[31mRollupError: Failed to compile. Check the logs above.
+    at error (D:\Twitch\Next13-Menu-Magic-Turbo\node_modules\rollup\dist\shared\rollup.js:206:30)
+    at Object.error (D:\Twitch\Next13-Menu-Magic-Turbo\node_modules\rollup\dist\shared\rollup.js:23606:20)
+    at Object.error (D:\Twitch\Next13-Menu-Magic-Turbo\node_modules\rollup\dist\shared\rollup.js:22871:42)
+    at Object.transform (D:\Twitch\Next13-Menu-Magic-Turbo\node_modules\tsup\dist\rollup.js:7287:20)
+    at D:\Twitch\Next13-Menu-Magic-Turbo\node_modules\rollup\dist\shared\rollup.js:23807:40[39m
+[31mDTS[39m [31mBuild error[39m
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

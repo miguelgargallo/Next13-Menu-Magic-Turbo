@@ -19,18 +19,32 @@ var Button = () => {
   });
 };
 
+// src/Version.tsx
+import { jsx as jsx2 } from "react/jsx-runtime";
+var Version = () => {
+  return /* @__PURE__ */ jsx2("button", {
+    className: "hidden bg-yellow-200 py-2 px-4 text-xs font-bold text-black md:block",
+    children: /* @__PURE__ */ jsx2("a", {
+      href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      children: "v2.0.0"
+    })
+  });
+};
+
 // src/Footer.tsx
-import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
+import { jsx as jsx3, jsxs as jsxs2 } from "react/jsx-runtime";
 var Footer = () => {
   return /* @__PURE__ */ jsxs2("footer", {
     className: "bg-black py-8 text-center text-white",
     children: [
-      /* @__PURE__ */ jsx2("div", {
+      /* @__PURE__ */ jsx3("div", {
         children: /* @__PURE__ */ jsxs2("a", {
           children: [
             "Made with \u2764\uFE0F by",
             " ",
-            /* @__PURE__ */ jsx2("a", {
+            /* @__PURE__ */ jsx3("a", {
               href: "https://twitter.com/miguelgargallo",
               target: "_blank",
               rel: "noopener noreferrer",
@@ -41,12 +55,12 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ jsx2("div", {
+      /* @__PURE__ */ jsx3("div", {
         children: /* @__PURE__ */ jsxs2("a", {
           children: [
             "2022 \xA9",
             " ",
-            /* @__PURE__ */ jsx2("a", {
+            /* @__PURE__ */ jsx3("a", {
               href: "https://huggingface.co/spaces/superdatas/LICENSE",
               target: "_blank",
               rel: "noopener noreferrer",
@@ -63,13 +77,13 @@ var Footer = () => {
           /* @__PURE__ */ jsxs2("div", {
             className: "flex w-full items-center justify-center",
             children: [
-              /* @__PURE__ */ jsx2("a", {
+              /* @__PURE__ */ jsx3("a", {
                 href: "https://huggingface.co/spaces/superdatas/LICENSE",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className: "hidden p-2 md:block",
-                children: /* @__PURE__ */ jsx2("picture", {
-                  children: /* @__PURE__ */ jsx2("img", {
+                children: /* @__PURE__ */ jsx3("picture", {
+                  children: /* @__PURE__ */ jsx3("img", {
                     src: "https://huggingface.co/front/assets/huggingface_logo.svg",
                     alt: "Landscape picture",
                     width: 40,
@@ -77,7 +91,7 @@ var Footer = () => {
                   })
                 })
               }),
-              /* @__PURE__ */ jsx2(Versions, {}),
+              /* @__PURE__ */ jsx3(Version, {}),
               /* @__PURE__ */ jsxs2("div", {
                 className: "hidden py-2 px-4 font-bold text-white md:block",
                 style: {
@@ -87,9 +101,9 @@ var Footer = () => {
                 },
                 children: [
                   " ",
-                  /* @__PURE__ */ jsx2("button", {
+                  /* @__PURE__ */ jsx3("button", {
                     className: "hidden py-2 px-4 font-bold text-white md:block",
-                    children: /* @__PURE__ */ jsx2("a", {
+                    children: /* @__PURE__ */ jsx3("a", {
                       href: "http://twitter.com/miguelgargallo",
                       target: "_blank",
                       rel: "noopener noreferrer",
@@ -100,27 +114,13 @@ var Footer = () => {
               })
             ]
           }),
-          /* @__PURE__ */ jsx2("p", {
+          /* @__PURE__ */ jsx3("p", {
             className: "text-white",
             children: "The Art of Prompting, tomorrow, today."
           })
         ]
       })
     ]
-  });
-};
-
-// src/Version.tsx
-import { jsx as jsx3 } from "react/jsx-runtime";
-var Version = () => {
-  return /* @__PURE__ */ jsx3("button", {
-    className: "hidden bg-yellow-200 py-2 px-4 text-xs font-bold text-black md:block",
-    children: /* @__PURE__ */ jsx3("a", {
-      href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
-      target: "_blank",
-      rel: "noopener noreferrer",
-      children: "v2.0.0"
-    })
   });
 };
 
