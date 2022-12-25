@@ -1,0 +1,52 @@
+yarn run v1.22.17
+$ next build
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/15)
+✅ Pagina de Inversores de Pylar AI, una Startup de Miguel Gargallo
+✅ BlackHoles by Pylar AI, a Miguel Gargallo Startup
+✅ Pagina de principal en spanish de Pylar AI, una Startup de Miguel Gargallo
+✅ Pagina de Ventas de Pylar AI, una Startup de Miguel Gargallo
+✅ Girls by Pylar AI, a Miguel Gargallo Startup
+✅ Girls by Pylar AI, a Miguel Gargallo Startup
+✅ BlackHoles by Pylar AI, a Miguel Gargallo Startup
+✅ What is Pylar page by Pylar AI, a Miguel Gargallo Startup
+✅ Investors Relations page by Pylar AI, a Miguel Gargallo Startup
+✅ Index page by Pylar AI, a Miguel Gargallo Startup
+✅ BlackHoles by Pylar AI, a Miguel Gargallo Startup
+✅ Pagina de Que es Pylar de Pylar AI, una Startup de Miguel Gargallo
+info  - Generating static pages (3/15)
+info  - Generating static pages (7/15)
+✅ Sales page by Pylar AI, a Miguel Gargallo Startup
+info  - Generating static pages (11/15)
+info  - Generating static pages (15/15)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ○ / (481 ms)                             2 kB            149 kB
+├   /_app                                  0 B            73.2 kB
+├ ○ /404                                   181 B          73.4 kB
+├ ○ /collections                           811 B           148 kB
+├ ○ /collections/blackholes (380 ms)       1.27 kB         149 kB
+├ ○ /collections/box (386 ms)              1.1 kB          148 kB
+├ ○ /collections/cats (368 ms)             1.08 kB         148 kB
+├ ○ /collections/human (370 ms)            1.14 kB         148 kB
+├ ○ /es (434 ms)                           1.65 kB         149 kB
+├ ○ /es/inverstors (314 ms)                1.3 kB          117 kB
+├ ○ /es/que-es.pylar                       1.85 kB         149 kB
+├ ○ /es/ventas (310 ms)                    830 B           148 kB
+├ ○ /investors (464 ms)                    1.3 kB          117 kB
+├ ○ /sales (581 ms)                        809 B           148 kB
+└ ○ /what-is-pylar (391 ms)                1.69 kB         149 kB
++ First Load JS shared by all              76.8 kB
+  ├ chunks/framework-aedff47d294e0670.js   45.4 kB
+  ├ chunks/main-b8adf948f7f01545.js        26.7 kB
+  ├ chunks/pages/_app-bfc035635fd11892.js  317 B
+  ├ chunks/webpack-ee7e63bc15b31913.js     815 B
+  └ css/b91c32fcdb6e1162.css               3.57 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
+Done in 24.95s.
