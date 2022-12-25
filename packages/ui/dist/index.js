@@ -182,7 +182,7 @@ var Menu = () => {
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
               className: "flex items-center justify-center",
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-                href: "/page-1",
+                href: "/#",
                 className: "",
                 children: "Menu Element 1"
               })
@@ -190,7 +190,7 @@ var Menu = () => {
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
               className: "flex w-full items-center justify-center",
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-                href: "/page-2",
+                href: "/#",
                 className: "",
                 children: "Menu Element 2"
               })
@@ -198,7 +198,7 @@ var Menu = () => {
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
               className: "flex w-full items-center justify-center",
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-                href: "/page-3",
+                href: "/#",
                 className: "",
                 children: "Menu Element 3"
               })
@@ -206,7 +206,7 @@ var Menu = () => {
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
               className: "flex w-full items-center justify-center",
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-                href: "/page-4",
+                href: "/#",
                 className: "",
                 children: "Menu Element 4"
               })
@@ -214,7 +214,7 @@ var Menu = () => {
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
               className: "flex w-full items-center justify-center",
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-                href: "/page-5",
+                href: "/#",
                 className: "",
                 children: "Menu Element 5"
               })
@@ -233,12 +233,12 @@ var Menu1 = () => {
     className: "flex w-full items-center justify-center",
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
-        href: "/page-1",
+        href: "/#",
         className: "p-4 text-white text-md font-bold",
         children: "Menu Element 1"
       }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
-        href: "/page-2",
+        href: "/#",
         className: "p-4 text-white text-md font-bold",
         children: "Menu Element 2"
       }),
@@ -248,12 +248,12 @@ var Menu1 = () => {
         children: "SuperMenu"
       }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
-        href: "/page-4",
+        href: "/#",
         className: "p-4 text-white text-md font-bold",
         children: "Menu Element 4"
       }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
-        href: "/page-5",
+        href: "/#",
         className: "p-4 text-white text-md font-bold",
         children: "Menu Element 5"
       })
@@ -278,27 +278,27 @@ var Menu2 = () => {
         className: "flex w-full items-center justify-center",
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-            href: "/page-1",
+            href: "/#",
             className: "p-4 text-white text-md font-bold",
             children: "Menu Element 1"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-            href: "/page-2",
+            href: "/#",
             className: "p-4 text-white text-md font-bold",
             children: "Menu Element 2"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-            href: "/page-3",
+            href: "/#",
             className: "p-4 text-white text-md font-bold",
             children: "Menu Element 3"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-            href: "/page-4",
+            href: "/#",
             className: "p-4 text-white text-md font-bold",
             children: "Menu Element 4"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-            href: "/page-5",
+            href: "/#",
             className: "p-4 text-white text-md font-bold",
             children: "Menu Element 5"
           })
@@ -321,27 +321,27 @@ var Menu3 = () => {
           children: "SuperMenu"
         }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
-          href: "/page-1",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 1"
         }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
-          href: "/page-2",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 2"
         }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
-          href: "/page-3",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 3"
         }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
-          href: "/page-4",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 4"
         }),
         /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
-          href: "/page-5",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 5"
         })
@@ -368,27 +368,27 @@ var Menu4 = () => {
         className: "p-4 text-white text-md font-bold",
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-            href: "/page-1",
+            href: "/#",
             className: "m-2",
             children: "Element 1"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-            href: "/page-2",
+            href: "/#",
             className: "m-2",
             children: "Element 2"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-            href: "/page-3",
+            href: "/#",
             className: "m-2",
             children: "Element 3"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-            href: "/page-4",
+            href: "/#",
             className: "m-2",
             children: "Element 4"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-            href: "/page-5",
+            href: "/#",
             className: "m-2",
             children: "Element 5"
           })
@@ -414,7 +414,7 @@ var Menu5 = () => {
       /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
         className: "flex w-full items-center justify-center",
         children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
-          href: "/page-1",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 1"
         })
@@ -422,7 +422,7 @@ var Menu5 = () => {
       /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
         className: "flex w-full items-center justify-center",
         children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
-          href: "/page-2",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 2"
         })
@@ -430,7 +430,7 @@ var Menu5 = () => {
       /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
         className: "flex w-full items-center justify-center",
         children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
-          href: "/page-3",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 3"
         })
@@ -438,7 +438,7 @@ var Menu5 = () => {
       /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
         className: "flex w-full items-center justify-center",
         children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
-          href: "/page-4",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 4"
         })
@@ -446,7 +446,7 @@ var Menu5 = () => {
       /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
         className: "flex w-full items-center justify-center",
         children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
-          href: "/page-5",
+          href: "/#",
           className: "p-4 text-white text-md font-bold",
           children: "Menu Element 5"
         })
@@ -473,27 +473,27 @@ var Menu6 = () => {
         className: "p-4 text-white text-md font-bold flex flex-row items-center justify-center",
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
-            href: "/page-1",
+            href: "/#",
             className: "m-2",
             children: "Element 1"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
-            href: "/page-2",
+            href: "/#",
             className: "m-2",
             children: "Element 2"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
-            href: "/page-3",
+            href: "/#",
             className: "m-2",
             children: "Element 3"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
-            href: "/page-4",
+            href: "/#",
             className: "m-2",
             children: "Element 4"
           }),
           /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
-            href: "/page-5",
+            href: "/#",
             className: "m-2",
             children: "Element 5"
           })
@@ -523,7 +523,7 @@ var Menu7 = () => {
           /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", {
             className: "flex w-full items-center justify-center",
             children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
-              href: "/page-1",
+              href: "/#",
               className: "",
               children: "Menu Element 1"
             })
@@ -531,7 +531,7 @@ var Menu7 = () => {
           /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", {
             className: "flex w-full items-center justify-center",
             children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
-              href: "/page-2",
+              href: "/#",
               className: "",
               children: "Menu Element 2"
             })
@@ -539,7 +539,7 @@ var Menu7 = () => {
           /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", {
             className: "flex w-full items-center justify-center",
             children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
-              href: "/page-3",
+              href: "/#",
               className: "",
               children: "Menu Element 3"
             })
@@ -547,7 +547,7 @@ var Menu7 = () => {
           /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", {
             className: "flex w-full items-center justify-center",
             children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
-              href: "/page-4",
+              href: "/#",
               className: "",
               children: "Menu Element 4"
             })
@@ -555,7 +555,7 @@ var Menu7 = () => {
           /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", {
             className: "flex w-full items-center justify-center",
             children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
-              href: "/page-5",
+              href: "/#",
               className: "",
               children: "Menu Element 5"
             })
