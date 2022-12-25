@@ -20,7 +20,12 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.tsx
 var src_exports = {};
 __export(src_exports, {
-  Button: () => Button
+  Button: () => Button,
+  Footer: () => Footer,
+  Menu1: () => Menu1,
+  Menu2: () => Menu2,
+  Menu3: () => Menu3,
+  Version: () => Version
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -44,7 +49,235 @@ var Button = () => {
     })
   });
 };
+
+// src/Footer.tsx
+var import_jsx_runtime2 = require("react/jsx-runtime");
+var Footer = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("footer", {
+    className: "bg-black py-8 text-center text-white",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("a", {
+          children: [
+            "Made with \u2764\uFE0F by",
+            " ",
+            /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+              href: "https://twitter.com/miguelgargallo",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "hover:text-blue text-white",
+              children: "Miguel Gargallo"
+            }),
+            "."
+          ]
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("a", {
+          children: [
+            "2022 \xA9",
+            " ",
+            /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+              href: "https://huggingface.co/spaces/superdatas/LICENSE",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "hover:text-blue text-white",
+              children: "Pylar AI creative ML license"
+            }),
+            "."
+          ]
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
+        className: "hidden sm:block",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
+            className: "flex w-full items-center justify-center",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+                href: "https://huggingface.co/spaces/superdatas/LICENSE",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className: "hidden p-2 md:block",
+                children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("picture", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("img", {
+                    src: "https://huggingface.co/front/assets/huggingface_logo.svg",
+                    alt: "Landscape picture",
+                    width: 40,
+                    height: 20
+                  })
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Versions, {}),
+              /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
+                className: "hidden py-2 px-4 font-bold text-white md:block",
+                style: {
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center"
+                },
+                children: [
+                  " ",
+                  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+                    className: "hidden py-2 px-4 font-bold text-white md:block",
+                    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+                      href: "http://twitter.com/miguelgargallo",
+                      target: "_blank",
+                      rel: "noopener noreferrer",
+                      children: "Twitter"
+                    })
+                  })
+                ]
+              })
+            ]
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", {
+            className: "text-white",
+            children: "The Art of Prompting, tomorrow, today."
+          })
+        ]
+      })
+    ]
+  });
+};
+
+// src/Version.tsx
+var import_jsx_runtime3 = require("react/jsx-runtime");
+var Version = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
+    className: "hidden bg-yellow-200 py-2 px-4 text-xs font-bold text-black md:block",
+    children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
+      href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      children: "v2.0.0"
+    })
+  });
+};
+
+// src/Menu1.tsx
+var import_jsx_runtime4 = require("react/jsx-runtime");
+var Menu1 = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+    className: "flex w-full items-center justify-center",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+        href: "/page-1",
+        className: "p-4 text-white text-md font-bold",
+        children: "Menu Element 1"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+        href: "/page-2",
+        className: "p-4 text-white text-md font-bold",
+        children: "Menu Element 2"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "SuperMenu"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+        href: "/page-4",
+        className: "p-4 text-white text-md font-bold",
+        children: "Menu Element 4"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+        href: "/page-5",
+        className: "p-4 text-white text-md font-bold",
+        children: "Menu Element 5"
+      })
+    ]
+  });
+};
+
+// src/Menu2.tsx
+var import_jsx_runtime5 = require("react/jsx-runtime");
+var Menu2 = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
+    className: "min-w-screen flex min-h-screen flex-col bg-black",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          href: "/#",
+          className: "p-4 text-white text-3xl font-bold",
+          children: "SuperMenu"
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
+        className: "flex w-full items-center justify-center",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+            href: "/page-1",
+            className: "p-4 text-white text-md font-bold",
+            children: "Menu Element 1"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+            href: "/page-2",
+            className: "p-4 text-white text-md font-bold",
+            children: "Menu Element 2"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+            href: "/page-3",
+            className: "p-4 text-white text-md font-bold",
+            children: "Menu Element 3"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+            href: "/page-4",
+            className: "p-4 text-white text-md font-bold",
+            children: "Menu Element 4"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+            href: "/page-5",
+            className: "p-4 text-white text-md font-bold",
+            children: "Menu Element 5"
+          })
+        ]
+      })
+    ]
+  });
+};
+
+// src/Menu3.tsx
+var import_jsx_runtime6 = require("react/jsx-runtime");
+var Menu3 = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", {
+    className: "flex w-full items-center justify-center",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/page-1",
+        className: "p-4 text-white text-md font-bold",
+        children: "Menu Element 1"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/page-2",
+        className: "p-4 text-white text-md font-bold",
+        children: "Menu Element 2"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "SuperMenu"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/page-4",
+        className: "p-4 text-white text-md font-bold",
+        children: "Menu Element 4"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/page-5",
+        className: "p-4 text-white text-md font-bold",
+        children: "Menu Element 5"
+      })
+    ]
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  Button
+  Button,
+  Footer,
+  Menu1,
+  Menu2,
+  Menu3,
+  Version
 });
