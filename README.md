@@ -1,4 +1,4 @@
-- EP6 | Pencil TV 🔴 Hoy desarrollamos Menús para tus webs en Typescript para Next 13.1.1 en React!
+# EP6 | Pencil TV 🔴 Hoy desarrollamos Menús para tus webs en Typescript para Next 13.1.1 en React!
 - Código: https://github.com/miguelgargallo/vscode-setup
 - Visita la web: https://menu-turbo.vercel.app/
 - Lee el código: https://github.com/miguelgargallo/vscode-setup
