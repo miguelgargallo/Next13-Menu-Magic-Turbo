@@ -25,6 +25,9 @@ __export(src_exports, {
   Menu1: () => Menu1,
   Menu2: () => Menu2,
   Menu3: () => Menu3,
+  Menu4: () => Menu4,
+  Menu5: () => Menu5,
+  Menu6: () => Menu6,
   Version: () => Version
 });
 module.exports = __toCommonJS(src_exports);
@@ -194,7 +197,6 @@ var Menu1 = () => {
 var import_jsx_runtime5 = require("react/jsx-runtime");
 var Menu2 = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
-    className: "min-w-screen flex min-h-screen flex-col bg-black",
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
         className: "flex w-full items-center justify-center",
@@ -241,33 +243,193 @@ var Menu2 = () => {
 // src/Menu3.tsx
 var import_jsx_runtime6 = require("react/jsx-runtime");
 var Menu3 = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", {
-    className: "flex w-full items-center justify-center",
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", {
+      className: "flex w-full items-center justify-center",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          href: "/#",
+          className: "p-4 text-white text-3xl font-bold",
+          children: "SuperMenu"
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          href: "/page-1",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 1"
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          href: "/page-2",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 2"
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          href: "/page-3",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 3"
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          href: "/page-4",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 4"
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          href: "/page-5",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 5"
+        })
+      ]
+    })
+  });
+};
+
+// src/Menu4.tsx
+var import_jsx_runtime7 = require("react/jsx-runtime");
+var Menu4 = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", {
+    className: "columns-2 flex flex-row items-center justify-center bg-gray-900",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-        href: "/page-1",
-        className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 1"
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-        href: "/page-2",
-        className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 2"
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-        href: "/#",
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", {
         className: "p-4 text-white text-3xl font-bold",
-        children: "SuperMenu"
+        children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+          href: "/#",
+          className: "m-2",
+          children: "SuperMenu"
+        })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-        href: "/page-4",
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", {
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 4"
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+            href: "/page-1",
+            className: "m-2",
+            children: "Element 1"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+            href: "/page-2",
+            className: "m-2",
+            children: "Element 2"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+            href: "/page-3",
+            className: "m-2",
+            children: "Element 3"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+            href: "/page-4",
+            className: "m-2",
+            children: "Element 4"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+            href: "/page-5",
+            className: "m-2",
+            children: "Element 5"
+          })
+        ]
+      })
+    ]
+  });
+};
+
+// src/Menu5.tsx
+var import_jsx_runtime8 = require("react/jsx-runtime");
+var Menu5 = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", {
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          href: "/#",
+          className: "p-4 text-white text-3xl font-bold",
+          children: "SuperMenu"
+        })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
-        href: "/page-5",
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          href: "/page-1",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 1"
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          href: "/page-2",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 2"
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          href: "/page-3",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 3"
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          href: "/page-4",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 4"
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          href: "/page-5",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 5"
+        })
+      })
+    ]
+  });
+};
+
+// src/Menu6.tsx
+var import_jsx_runtime9 = require("react/jsx-runtime");
+var Menu6 = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", {
+    className: "columns-2 flex flex-row items-center justify-center bg-gray-900",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
+        className: "p-4 text-white text-3xl font-bold",
+        children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+          href: "/#",
+          className: "m-2",
+          children: "SuperMenu"
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", {
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 5"
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+            href: "/page-1",
+            className: "m-2",
+            children: "Element 1"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+            href: "/page-2",
+            className: "m-2",
+            children: "Element 2"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+            href: "/page-3",
+            className: "m-2",
+            children: "Element 3"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+            href: "/page-4",
+            className: "m-2",
+            children: "Element 4"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+            href: "/page-5",
+            className: "m-2",
+            children: "Element 5"
+          })
+        ]
       })
     ]
   });
@@ -279,5 +441,8 @@ var Menu3 = () => {
   Menu1,
   Menu2,
   Menu3,
+  Menu4,
+  Menu5,
+  Menu6,
   Version
 });

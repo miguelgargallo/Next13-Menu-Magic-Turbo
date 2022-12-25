@@ -163,7 +163,6 @@ var Menu1 = () => {
 import { jsx as jsx5, jsxs as jsxs4 } from "react/jsx-runtime";
 var Menu2 = () => {
   return /* @__PURE__ */ jsxs4("div", {
-    className: "min-w-screen flex min-h-screen flex-col bg-black",
     children: [
       /* @__PURE__ */ jsx5("div", {
         className: "flex w-full items-center justify-center",
@@ -210,33 +209,193 @@ var Menu2 = () => {
 // src/Menu3.tsx
 import { jsx as jsx6, jsxs as jsxs5 } from "react/jsx-runtime";
 var Menu3 = () => {
-  return /* @__PURE__ */ jsxs5("div", {
-    className: "flex w-full items-center justify-center",
+  return /* @__PURE__ */ jsx6("div", {
+    children: /* @__PURE__ */ jsxs5("div", {
+      className: "flex w-full items-center justify-center",
+      children: [
+        /* @__PURE__ */ jsx6("a", {
+          href: "/#",
+          className: "p-4 text-white text-3xl font-bold",
+          children: "SuperMenu"
+        }),
+        /* @__PURE__ */ jsx6("a", {
+          href: "/page-1",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 1"
+        }),
+        /* @__PURE__ */ jsx6("a", {
+          href: "/page-2",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 2"
+        }),
+        /* @__PURE__ */ jsx6("a", {
+          href: "/page-3",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 3"
+        }),
+        /* @__PURE__ */ jsx6("a", {
+          href: "/page-4",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 4"
+        }),
+        /* @__PURE__ */ jsx6("a", {
+          href: "/page-5",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 5"
+        })
+      ]
+    })
+  });
+};
+
+// src/Menu4.tsx
+import { jsx as jsx7, jsxs as jsxs6 } from "react/jsx-runtime";
+var Menu4 = () => {
+  return /* @__PURE__ */ jsxs6("div", {
+    className: "columns-2 flex flex-row items-center justify-center bg-gray-900",
     children: [
-      /* @__PURE__ */ jsx6("a", {
-        href: "/page-1",
-        className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 1"
-      }),
-      /* @__PURE__ */ jsx6("a", {
-        href: "/page-2",
-        className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 2"
-      }),
-      /* @__PURE__ */ jsx6("a", {
-        href: "/#",
+      /* @__PURE__ */ jsx7("div", {
         className: "p-4 text-white text-3xl font-bold",
-        children: "SuperMenu"
+        children: /* @__PURE__ */ jsx7("a", {
+          href: "/#",
+          className: "m-2",
+          children: "SuperMenu"
+        })
       }),
-      /* @__PURE__ */ jsx6("a", {
-        href: "/page-4",
+      /* @__PURE__ */ jsxs6("div", {
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 4"
+        children: [
+          /* @__PURE__ */ jsx7("a", {
+            href: "/page-1",
+            className: "m-2",
+            children: "Element 1"
+          }),
+          /* @__PURE__ */ jsx7("a", {
+            href: "/page-2",
+            className: "m-2",
+            children: "Element 2"
+          }),
+          /* @__PURE__ */ jsx7("a", {
+            href: "/page-3",
+            className: "m-2",
+            children: "Element 3"
+          }),
+          /* @__PURE__ */ jsx7("a", {
+            href: "/page-4",
+            className: "m-2",
+            children: "Element 4"
+          }),
+          /* @__PURE__ */ jsx7("a", {
+            href: "/page-5",
+            className: "m-2",
+            children: "Element 5"
+          })
+        ]
+      })
+    ]
+  });
+};
+
+// src/Menu5.tsx
+import { jsx as jsx8, jsxs as jsxs7 } from "react/jsx-runtime";
+var Menu5 = () => {
+  return /* @__PURE__ */ jsxs7("div", {
+    children: [
+      /* @__PURE__ */ jsx8("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ jsx8("a", {
+          href: "/#",
+          className: "p-4 text-white text-3xl font-bold",
+          children: "SuperMenu"
+        })
       }),
-      /* @__PURE__ */ jsx6("a", {
-        href: "/page-5",
+      /* @__PURE__ */ jsx8("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ jsx8("a", {
+          href: "/page-1",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 1"
+        })
+      }),
+      /* @__PURE__ */ jsx8("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ jsx8("a", {
+          href: "/page-2",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 2"
+        })
+      }),
+      /* @__PURE__ */ jsx8("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ jsx8("a", {
+          href: "/page-3",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 3"
+        })
+      }),
+      /* @__PURE__ */ jsx8("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ jsx8("a", {
+          href: "/page-4",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 4"
+        })
+      }),
+      /* @__PURE__ */ jsx8("div", {
+        className: "flex w-full items-center justify-center",
+        children: /* @__PURE__ */ jsx8("a", {
+          href: "/page-5",
+          className: "p-4 text-white text-md font-bold",
+          children: "Menu Element 5"
+        })
+      })
+    ]
+  });
+};
+
+// src/Menu6.tsx
+import { jsx as jsx9, jsxs as jsxs8 } from "react/jsx-runtime";
+var Menu6 = () => {
+  return /* @__PURE__ */ jsxs8("div", {
+    className: "columns-2 flex flex-row items-center justify-center bg-gray-900",
+    children: [
+      /* @__PURE__ */ jsx9("div", {
+        className: "p-4 text-white text-3xl font-bold",
+        children: /* @__PURE__ */ jsx9("a", {
+          href: "/#",
+          className: "m-2",
+          children: "SuperMenu"
+        })
+      }),
+      /* @__PURE__ */ jsxs8("div", {
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 5"
+        children: [
+          /* @__PURE__ */ jsx9("a", {
+            href: "/page-1",
+            className: "m-2",
+            children: "Element 1"
+          }),
+          /* @__PURE__ */ jsx9("a", {
+            href: "/page-2",
+            className: "m-2",
+            children: "Element 2"
+          }),
+          /* @__PURE__ */ jsx9("a", {
+            href: "/page-3",
+            className: "m-2",
+            children: "Element 3"
+          }),
+          /* @__PURE__ */ jsx9("a", {
+            href: "/page-4",
+            className: "m-2",
+            children: "Element 4"
+          }),
+          /* @__PURE__ */ jsx9("a", {
+            href: "/page-5",
+            className: "m-2",
+            children: "Element 5"
+          })
+        ]
       })
     ]
   });
@@ -247,5 +406,8 @@ export {
   Menu1,
   Menu2,
   Menu3,
+  Menu4,
+  Menu5,
+  Menu6,
   Version
 };

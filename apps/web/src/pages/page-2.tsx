@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
-import { Menu1, Menu2, Menu3 } from "ui";
+import { Menu1, Menu2, Menu3, Menu4 } from "ui";
 
 export default function Home() {
   console.log("✅ Index page by Pylar AI, a Miguel Gargallo Startup");
@@ -14,7 +14,9 @@ export default function Home() {
       <Menu1 />
       <Menu2 />
       <Menu3 />
+      <Menu4 />
       </div>
     </div>
   );
 }
+
