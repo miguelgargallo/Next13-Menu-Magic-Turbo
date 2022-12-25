@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
-import { Menu1, Menu2, Menu3, Menu4, Menu5, Menu6, Menu7 } from "ui";
+import { Menu, Menu1, Menu2, Menu3, Menu4, Menu5, Menu6, Menu7 } from "ui";
 
 export default function Home() {
   console.log("✅ Index page by Pylar AI, a Miguel Gargallo Startup");
@@ -11,6 +11,7 @@ export default function Home() {
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <div>
+      <Menu />
       <Menu1 />
       <Menu2 />
       <Menu3 />
