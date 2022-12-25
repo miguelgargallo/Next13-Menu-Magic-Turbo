@@ -1,27 +1,8 @@
 - EP6 | Pencil TV 🔴 Hoy desarrollamos Menús para tus webs en Typescript para Next 13.1.1 en React!
-- Código: https://github.com/miguelgargallo/Next13-Menu-Magic-Turbo
-- Framework Usado: git clone https://github.com/miguelgargallo/Next13-Framework-SushiJS-Turbo
-
 - Código: https://github.com/miguelgargallo/vscode-setup
 - Visita la web: https://menu-turbo.vercel.app/
 - Lee el código: https://github.com/miguelgargallo/vscode-setup
 - Usa el Framework Usado: git clone https://github.com/miguelgargallo/Next13-Framework-SushiJS-Turbo
-
-- 🐦Twitter para enterarte de los directos: twitter.com/miguelgargallo
-- 👌TWITCH: http://es.twitch.tv/miguelgargallo
-- ❤ INSTAGRAM: http://instagram.com/miguelgargallo.es
-- 💥Te ha gustado? Suscríbete!
-- ► https://bit.ly/miguelgargallo
-
-- LINK: https://github.com/rcmaehl/MSEdgeRedi...
-
-- SERVIDOR DISCORD: https://discord.gg/eZQHJuX7Yx
-- TODAS MIS REDES SOCIALES▼
-- Espero que hayas disfrutado de este vídeo :D
-
-- Sígueme en Twitter: https://twitter.com/miguelgargallo
-- Sígueme en Twitch: http://es.twitch.tv/miguelgargallo
-- Sígueme en Instagram: http://instagram.com/miguelgargallo.es
 
 2022 (c) All Rights Reserved
 
