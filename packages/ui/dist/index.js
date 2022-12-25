@@ -28,6 +28,7 @@ __export(src_exports, {
   Menu4: () => Menu4,
   Menu5: () => Menu5,
   Menu6: () => Menu6,
+  Menu7: () => Menu7,
   Version: () => Version
 });
 module.exports = __toCommonJS(src_exports);
@@ -391,18 +392,18 @@ var Menu5 = () => {
 var import_jsx_runtime9 = require("react/jsx-runtime");
 var Menu6 = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", {
-    className: "columns-2 flex flex-row items-center justify-center bg-gray-900",
+    className: "",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
-        className: "p-4 text-white text-3xl font-bold",
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("span", {
+        className: "p-4 text-white text-md font-bold flex flex-row items-center justify-center",
         children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
           href: "/#",
-          className: "m-2",
+          className: "p-4 text-white text-3xl font-bold",
           children: "SuperMenu"
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", {
-        className: "p-4 text-white text-md font-bold",
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("span", {
+        className: "p-4 text-white text-md font-bold flex flex-row items-center justify-center",
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
             href: "/page-1",
@@ -434,6 +435,69 @@ var Menu6 = () => {
     ]
   });
 };
+
+// src/Menu7.tsx
+var import_jsx_runtime10 = require("react/jsx-runtime");
+var Menu7 = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", {
+    className: "columns-2 flex flex-row items-center justify-center bg-gray-900",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+        className: "p-4 text-white text-3xl font-bold",
+        children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+          href: "/#",
+          className: "m-2",
+          children: "SuperMenu"
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", {
+        className: "p-4 text-white text-md font-bold text-white text-md font-bold",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+              href: "/page-1",
+              className: "",
+              children: "Menu Element 1"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+              href: "/page-2",
+              className: "",
+              children: "Menu Element 2"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+              href: "/page-3",
+              className: "",
+              children: "Menu Element 3"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+              href: "/page-4",
+              className: "",
+              children: "Menu Element 4"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+              href: "/page-5",
+              className: "",
+              children: "Menu Element 5"
+            })
+          })
+        ]
+      })
+    ]
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Button,
@@ -444,5 +508,6 @@ var Menu6 = () => {
   Menu4,
   Menu5,
   Menu6,
+  Menu7,
   Version
 });

@@ -357,18 +357,18 @@ var Menu5 = () => {
 import { jsx as jsx9, jsxs as jsxs8 } from "react/jsx-runtime";
 var Menu6 = () => {
   return /* @__PURE__ */ jsxs8("div", {
-    className: "columns-2 flex flex-row items-center justify-center bg-gray-900",
+    className: "",
     children: [
-      /* @__PURE__ */ jsx9("div", {
-        className: "p-4 text-white text-3xl font-bold",
+      /* @__PURE__ */ jsx9("span", {
+        className: "p-4 text-white text-md font-bold flex flex-row items-center justify-center",
         children: /* @__PURE__ */ jsx9("a", {
           href: "/#",
-          className: "m-2",
+          className: "p-4 text-white text-3xl font-bold",
           children: "SuperMenu"
         })
       }),
-      /* @__PURE__ */ jsxs8("div", {
-        className: "p-4 text-white text-md font-bold",
+      /* @__PURE__ */ jsxs8("span", {
+        className: "p-4 text-white text-md font-bold flex flex-row items-center justify-center",
         children: [
           /* @__PURE__ */ jsx9("a", {
             href: "/page-1",
@@ -400,6 +400,69 @@ var Menu6 = () => {
     ]
   });
 };
+
+// src/Menu7.tsx
+import { jsx as jsx10, jsxs as jsxs9 } from "react/jsx-runtime";
+var Menu7 = () => {
+  return /* @__PURE__ */ jsxs9("div", {
+    className: "columns-2 flex flex-row items-center justify-center bg-gray-900",
+    children: [
+      /* @__PURE__ */ jsx10("div", {
+        className: "p-4 text-white text-3xl font-bold",
+        children: /* @__PURE__ */ jsx10("a", {
+          href: "/#",
+          className: "m-2",
+          children: "SuperMenu"
+        })
+      }),
+      /* @__PURE__ */ jsxs9("div", {
+        className: "p-4 text-white text-md font-bold text-white text-md font-bold",
+        children: [
+          /* @__PURE__ */ jsx10("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ jsx10("a", {
+              href: "/page-1",
+              className: "",
+              children: "Menu Element 1"
+            })
+          }),
+          /* @__PURE__ */ jsx10("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ jsx10("a", {
+              href: "/page-2",
+              className: "",
+              children: "Menu Element 2"
+            })
+          }),
+          /* @__PURE__ */ jsx10("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ jsx10("a", {
+              href: "/page-3",
+              className: "",
+              children: "Menu Element 3"
+            })
+          }),
+          /* @__PURE__ */ jsx10("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ jsx10("a", {
+              href: "/page-4",
+              className: "",
+              children: "Menu Element 4"
+            })
+          }),
+          /* @__PURE__ */ jsx10("div", {
+            className: "flex w-full items-center justify-center",
+            children: /* @__PURE__ */ jsx10("a", {
+              href: "/page-5",
+              className: "",
+              children: "Menu Element 5"
+            })
+          })
+        ]
+      })
+    ]
+  });
+};
 export {
   Button,
   Footer,
@@ -409,5 +472,6 @@ export {
   Menu4,
   Menu5,
   Menu6,
+  Menu7,
   Version
 };

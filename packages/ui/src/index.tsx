@@ -11,3 +11,4 @@ export * from "./Menu3";
 export * from "./Menu4";
 export * from "./Menu5";
 export * from "./Menu6";
+export * from "./Menu7";
