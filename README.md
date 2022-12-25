@@ -2,7 +2,10 @@
 - Código: https://github.com/miguelgargallo/vscode-setup
 - Visita la web: https://menu-turbo.vercel.app/
 - Lee el código: https://github.com/miguelgargallo/vscode-setup
-- Usa el Framework Usado: git clone https://github.com/miguelgargallo/Next13-Framework-SushiJS-Turbo
+- Usa el Framework Usado:
+```
+git clone https://github.com/miguelgargallo/Next13-Framework-SushiJS-Turbo
+```
 
 2022 (c) All Rights Reserved
 
