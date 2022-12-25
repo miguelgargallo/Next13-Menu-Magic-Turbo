@@ -5,6 +5,7 @@ export * from "./Button";
 export * from "./Footer";
 export * from "./Version";
 /* Menu Themes by Sushi JS */
+export * from "./Menu";
 export * from "./Menu1";
 export * from "./Menu2";
 export * from "./Menu3";
