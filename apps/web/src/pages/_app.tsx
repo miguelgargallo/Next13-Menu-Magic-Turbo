@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import "../styles/pylar.css";
+import "../styles/project.css";
 // include styles from the ui package
 import "ui/styles.css";
 
